@@ -14,7 +14,7 @@ Try playing around by adding new posts, changing the date, changing the filename
 
 Is your programmer’s itch acting up again? Do you see what we’ve repeated on both the blog index page and blog detail page? This repetition cannot stand! Refactor the site by moving the recent post list into its own include, and then load that include on both the blog index and detail pages.
 
-<img class="pull-left" src="/images/Jeff-mark-camels.jpg"
+<img class="pull-left" src="/images/jeff-mark-camels.jpg"
      alt="camel riders">
 
 One last little Jekyll Liquid tag trick before we move on. You might at some point want to add a link on the site, or a small description, that can direct users to the most recent blog post. Let’s first add a link in the header as the last navigation link. Open up _includes/nav-links.html and add in the changes in Listing 179.
