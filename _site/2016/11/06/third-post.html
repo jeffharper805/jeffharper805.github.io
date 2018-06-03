@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+  <title>Test Page: Don't Panic</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2016/11/06/third-post.html">Newest Post</a></li>
+ 
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="Learn Enough">
+  </a>
+</header>
+    
+    <div class="content-container" >
+      <div class="post">
+  <div class="half-hero" style="background-image:url(/images/pyramid.jpg)"></div>
+
+  <article class="page">
+    <header class="post-header">
+      <h1>Third Post from Jeff</h1>
+      <div class="post-byline">
+        <img src="/images/jd_avatar.jpg">
+        <a href="http://twitter.com/jeff_harper" class="social-link">Tw</a>
+        by: Jeff Harper
+        <span> - November 06, 2016</span>
+      </div>
+    </header>
+    <aside class="post-aside">
+      <h4>Recent Posts</h4>
+<ul class="blog-title-list">
+  
+    <li>
+      <a href="/2016/11/06/third-post.html">Third Post from Jeff</a>
+      <span>Posted: November 06, 2016</span>
+    </li>
+  
+    <li>
+      <a href="/2016/11/04/title-of-second-post.html">This is the title of the post</a>
+      <span>Posted: November 04, 2016</span>
+    </li>
+  
+    <li>
+      <a href="/2016/11/03/title-of-post.html">Here is the Second Post</a>
+      <span>Posted: November 03, 2016</span>
+    </li>
+  
+</ul>
+    </aside>
+    <div class="post-content">
+      <p>Try playing around by adding new posts, changing the date, changing the filename to see how Jekyll builds URLs, and changing the frontmatter to have different titles, authors, etc. You now have a super-simple blog! Jekyll has a lot more bells and whistles that can make your blog even fancier, which you can learn about by reading the <a href="https://jekyllrb.com/docs/home/">Jekyll documentation</a>.</p>
+
+<p>Is your programmer’s itch acting up again? Do you see what we’ve repeated on both the blog index page and blog detail page? This repetition cannot stand! Refactor the site by moving the recent post list into its own include, and then load that include on both the blog index and detail pages.</p>
+
+<p><img class="pull-left" src="/images/Jeff-mark-camels.jpg" alt="camel riders" /></p>
+
+<p>One last little Jekyll Liquid tag trick before we move on. You might at some point want to add a link on the site, or a small description, that can direct users to the most recent blog post. Let’s first add a link in the header as the last navigation link. Open up _includes/nav-links.html and add in the changes in Listing 179.</p>
+
+<p>Flipping between the two pages, you’ll see that things are looking pretty organized, and the content is looking good (Figure 193). Notice that for the post content we bumped up the font size of the text to 1.2rem. It is always nice to have slightly larger type for sections of content that are text-heavy for readability—a font size in the range of being equivalent to 16px to 18px is a good target.</p>
+
+    </div>
+    <footer class="post-footer">
+      Additional information, and maybe a <a href="#">link or two</a>
+    </footer>
+  </article>
+</div>
+
+    </div>
+    
+    <footer class="footer">
+  <a class="footer-logo" href="/">
+    <img src="/images/logo.png" alt="Learn Enough"/>
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2016/11/06/third-post.html">Newest Post</a></li>
+ 
+  </nav>
+  <h3>Learn Enough <span>to Be Dangerous</span></h3>
+    <ul class="social-list">
+      <li>
+  <a href="http://example.com/" class="social-link">Fb</a>
+</li>
+<li>
+  <a href="http://example.com/" class="social-link">Tw</a>
+</li>
+<li>
+  <a href="http://example.com/" class="social-link">Gh</a>
+</li>
+
+    </ul>
+</footer>
+  </body>
+</html>
