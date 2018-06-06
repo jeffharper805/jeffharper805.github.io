@@ -11,7 +11,7 @@ postFooter: Additional information, and maybe a <a href="#">link or two</a>
 On our recent trip to New York City we visited the United Nations building.  Last year we visited the UN offices in Geneva Switzerland.
 
 <img class="pull-left" src="/images/Jim-un-ny-small.jpg"
-     alt="camel riders">
+     alt="jeff and mark at the UN">
 
 One last little Jekyll Liquid tag trick before we move on. You might at some point want to add a link on the site, or a small description, that can direct users to the most recent blog post. Let’s first add a link in the header as the last navigation link. Open up _includes/nav-links.html and add in the changes in Listing 179.
 
