@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visiting the UN in NYC
-postHero: /images/jm-ny-un-large.jpg
+postHero: /images/jm-ny-un-narrow.jpg
 author: Jeff Harper
 authorTwitter: http://twitter.com/jeff_harper
 gravatar: /images/jd_avatar.jpg
@@ -10,7 +10,7 @@ postFooter: Additional information, and maybe a <a href="#">link or two</a>
 
 On our recent trip to New York City we visited the United Nations building.  Last year we visited the UN offices in Geneva Switzerland.
 
-<img class="pull-left" src="/images/jm-ny-un-narrow.jpg"
+<img class="pull-left" src="/images/jm-ny-un-square.jpg"
      alt="jeff and mark at the UN">
 
 One last little Jekyll Liquid tag trick before we move on. You might at some point want to add a link on the site, or a small description, that can direct users to the most recent blog post. Let’s first add a link in the header as the last navigation link. Open up _includes/nav-links.html and add in the changes in Listing 179.
